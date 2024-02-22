@@ -1,0 +1,80 @@
+.header,.slider, .content,.footer{
+    width:calc(100% - 60px);
+    float:left;
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom:20px;
+}
+.header .header-list, .footer .footer-list, .footer.footer-sosyal-list{
+    list-style: none;
+}
+
+.header .header-list .header-list-item{
+    display:inline;
+    margin:8px;
+    
+}
+
+
+.header.logo{
+    width:200px;
+    height:100px;
+    float:left;
+}
+    
+.header .header-list, .header-list-item,.header-list-link {
+    color:rebeccapurple;
+    background-color:lightpink;
+    float:right;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+   
+}
+    .header .header-list, .header-list-item,.header-list-link :hover {
+    color:lightpink;
+    background-color:rebeccapurple;
+ 
+}
+.slider .slider-image{
+    width:100%;
+    height:450px;
+}
+.content{
+    width:100%;
+    height:500px;
+   
+}
+.content .content-item, .footer .footer-item {
+    background-color: lightblue;
+    float:left;
+    width:calc(25% - 40px);
+    padding:12px;
+    margin:8px;
+  
+
+}
+.content .content-item .content-image{
+    width:100%;
+    height:300px;
+}
+
+.button{
+    background-color: pink;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:5px 15px;
+}
+
+.footer, .footer .footer-item{
+    background-color: lightgray;
+    color:black;
+}
+
+.footer .footer-item .footer-list-item .footer-list-link{
+    text-decoration: none;
+    color:black;
+    margin-bottom:5px;
+    font-size: 20px;
+}
